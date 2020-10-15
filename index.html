@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;700&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+  <script src="https://kit.fontawesome.com/1944f7b2a4.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <body>
+<div class="row nav">
+  <div class="col-4 Discover">
+    <a href="#"><i class='fas fa-angle-left dis'></i>Discover</a>
+  </div>
+  <div class="col-4 My-feed">
+    <a href="#"><strong>My Feed</strong></a>
+  </div>
+  <div class="col-4 Refresh">
+    <a href=""><i class="fas fa-download dw"></i></a>
+  </div>
+  <hr>
+</div>
+<div id="pg-carousel" class="carousel slide" data-ride="false">
+  <div class="carousel-inner">
+    <div class="page1 container-fluid carousel-item active"
+    id="page1"
+    ontouchstart="p1Start(event)"
+    ontouchmove="p1Move(event)"
+    ontouchend="p1End(event)">
+      <img class="image" src="https://w.ndtvimg.com/sites/3/2019/07/02161834/ganga-haridwar-660x330.jpg" alt="">
+      <h1>National Mission For Clean Ganga</h1>
+      <p>
+          With the installation of two new Sewer Treatment Plants under National Mission for Clean Ganga, 
+        the sewage treatment capacity of Haridwar city has been increased to 145 million litre per day which is 
+        adequate for treating the 108 million litres of sewage being generated in the city per day.
+        <br><br><br><br>
+      </p>
+    </div>
+    <div class="page2 container-fluid carousel-item"
+    id="page2"
+    ontouchstart="p2Start(event)"
+    ontouchmove="p2Move(event)"
+    ontouchend="p2End(event)">
+    <img class="image" src="https://media.npr.org/assets/img/2020/04/28/gettyimages-1205434458_custom-c47a8defd1fa1c6c825b88646de9f1873aff8d0a.jpg" alt="">
+    <h1>What Does The World Health Organization Do?</h1>
+    <p>
+      The World Health Organization describes its job as "the global guardian of health."
+It is now possibly facing the most devastating global health threat in its 72-year history: 
+      the coronavirus pandemic. WHO is devoting hundreds of millions of dollars and an all-hands-on-deck approach to the effort to vanquish the virus.
+        On April 14, President Trump put a temporary halt on U.S. funding for the agency, 
+      pending an investigation to see if WHO is "severely mismanaging and covering up the spread of the coronavirus."
+        <br><br><br><br>
+    </p>
+    </div>
+    <div class="page3 container-fluid carousel-item"
+    id="page3"
+    ontouchstart="p3Start(event)"
+    ontouchmove="p3Move(event)"
+    ontouchend="p3End(event)">
+      <img height="40%" class="image" src="https://static.toiimg.com/img/68856941/Master.jpg" alt="">
+      <h1>KKR vs DC Highlights, IPL 2019: Shikhar Dhawan stars as Delhi Capitals beat Kolkata Knight Riders by 7 wickets</h1>
+      <p>
+          DC, batting first, put up 161/7 in 20 overs. They were given some early jolts by Jofra Archer (3/19), 
+        as they were reduced to 10/2 in the third over. Shikhar Dhawan (57) counter-attacked against RR’s other bowlers, 
+        as DC reached the end of the Powerplay with 47/2. Shreyas Iyer (53) took charge after Dhawan’s wicket. 
+        RR were given a cracking start by Jos Buttler (22) and Ben Stokes (41), and Sanju Samson (25) built a steadying partnership with Stokes 
+        in the middle overs. Anrich Nortje (2/33) delivered the killer blow in the death overs with Robin Uthappa’s (32) wicket, 
+        after which RR could not keep up with the required run rate. They eventually reached 148/8 in their 20 overs, losing by 13 runs.
+        <br><br><br><br>
+      </p>
+    </div>
+    </div>
+    <a class="carousel-control-prev controls left" href="#pg-carousel" role="button" data-slide="prev">
+      <i class="fa fa-angle-left control-icons"></i>
+    </a>
+    <a class="carousel-control-next controls right" href="#pg-carousel" role="button" data-slide="next">
+      <i class="fa fa-angle-right control-icons"></i>
+    </a>
+    </div>
+    <div class="row footer">
+      <div class="col-4 rel">
+        <a href="#"><i class="fas fa-circle fa-3x fgicon"></i>
+        <p>Relevance</p>
+      </a>
+      </div>
+      <div class="col-4 share">
+        <a href="#">
+          <i class="fas fa-share-alt fa-3x ficon"></i>
+          <p>Share</p>
+        </a>
+      </div>
+      <div class="col-4 book">
+        <a href="#">
+          <i class="far fa-bookmark fa-3x ficon"></i>
+          <p>Bookmark</p>
+        </a>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="JS/main.js"></script>
+</html>
